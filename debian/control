@@ -1,0 +1,12 @@
+Source: ros-indigo-nav2d
+Section: misc
+Priority: extra
+Maintainer: Sebastian Kasperski <sebastian.kasperski@dfki.de>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin
+Homepage: http://wiki.ros.org/navigation_2d
+Standards-Version: 3.9.2
+
+Package: ros-indigo-nav2d
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-nav2d-exploration, ros-indigo-nav2d-karto, ros-indigo-nav2d-localizer, ros-indigo-nav2d-msgs, ros-indigo-nav2d-navigator, ros-indigo-nav2d-operator, ros-indigo-nav2d-remote, ros-indigo-nav2d-tutorials
+Description: Meta-Package containing modules for 2D-Navigation
