@@ -1,0 +1,12 @@
+Source: ros-indigo-nav2d-navigator
+Section: misc
+Priority: extra
+Maintainer: Sebastian Kasperski <sebastian.kasperski@dfki.de>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-actionlib, ros-indigo-actionlib-msgs, ros-indigo-catkin, ros-indigo-geometry-msgs, ros-indigo-message-generation, ros-indigo-nav2d-msgs, ros-indigo-nav2d-operator, ros-indigo-pluginlib, ros-indigo-roscpp, ros-indigo-tf
+Homepage: http://wiki.ros.org/robot_operator
+Standards-Version: 3.9.2
+
+Package: ros-indigo-nav2d-navigator
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-actionlib, ros-indigo-actionlib-msgs, ros-indigo-geometry-msgs, ros-indigo-message-runtime, ros-indigo-nav2d-msgs, ros-indigo-nav2d-operator, ros-indigo-pluginlib, ros-indigo-roscpp, ros-indigo-tf
+Description: This package provides a node for higher level navigation of a mobile robot in a planar environment. It needs a map and the robot's position within this map to create a plan for navigation. When used together with a SLAM module it can also be used to perform autonomous exploration of the robot's workspace.
