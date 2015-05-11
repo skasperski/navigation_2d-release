@@ -1,3 +1,33 @@
+## navigation_2d (indigo) - 0.1.4-0
+
+The packages in the `navigation_2d` repository were released into the `indigo` distro by running `/usr/bin/bloom-release navigation_2d -t indigo -r indigo` on `Mon, 11 May 2015 12:09:43 -0000`
+
+These packages were released:
+- `nav2d`
+- `nav2d_exploration`
+- `nav2d_karto`
+- `nav2d_localizer`
+- `nav2d_msgs`
+- `nav2d_navigator`
+- `nav2d_operator`
+- `nav2d_remote`
+- `nav2d_tutorials`
+
+Version of package(s) in repository `navigation_2d`:
+- upstream repository: https://github.com/skasperski/navigation_2d.git
+- release repository: https://github.com/skasperski/navigation_2d-release.git
+- rosdistro version: `0.1.3-0`
+- old version: `0.1.3-0`
+- new version: `0.1.4-0`
+
+Versions of tools used:
+- bloom version: `0.5.20`
+- catkin_pkg version: `0.2.8`
+- rosdep version: `0.11.2`
+- rosdistro version: `0.4.2`
+- vcstools version: `0.1.36`
+
+
 ## navigation_2d (hydro) - 0.2.0-0
 
 The packages in the `navigation_2d` repository were released into the `hydro` distro by running `/usr/bin/bloom-release navigation_2d -t hydro -r hydro` on `Mon, 08 Sep 2014 13:43:19 -0000`
