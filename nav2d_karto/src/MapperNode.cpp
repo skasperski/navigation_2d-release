@@ -1,11 +1,12 @@
 #include <ros/ros.h>
 
-#include "MultiMapper.h"
+#include <nav2d_karto/MultiMapper.h>
+#include <nav2d_karto/SpaSolver.h>
 
 #ifdef USE_G2O
-#include "G2oSolver.h"
+#include <nav2d_karto/G2oSolver.h>
 #else
-#include "SpaSolver.h"
+#include <nav2d_karto/SpaSolver.h>
 #endif
 
 int main(int argc, char **argv)

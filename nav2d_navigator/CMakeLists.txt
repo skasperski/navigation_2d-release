@@ -49,8 +49,8 @@ catkin_package(
     tf
     actionlib
     actionlib_msgs
-	 geometry_msgs
-	 nav2d_msgs
+    geometry_msgs
+    nav2d_msgs
     nav2d_operator
 )
 
