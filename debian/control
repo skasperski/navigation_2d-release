@@ -1,0 +1,12 @@
+Source: ros-indigo-nav2d-operator
+Section: misc
+Priority: extra
+Maintainer: Sebastian Kasperski <sebastian.kasperski@dfki.de>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin, ros-indigo-costmap-2d, ros-indigo-message-generation, ros-indigo-roscpp, ros-indigo-sensor-msgs, ros-indigo-tf
+Homepage: http://wiki.ros.org/nav2d_operator
+Standards-Version: 3.9.2
+
+Package: ros-indigo-nav2d-operator
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-costmap-2d, ros-indigo-message-runtime, ros-indigo-roscpp, ros-indigo-sensor-msgs, ros-indigo-tf
+Description: The operator is a lightweight, purely reactive obstacle-avoidance module for mobile robots moving in a planar environment. The operator node works by evaluating a set of predefined motion primitives based on a local costmap and a desired direction. The best evaluated motion command will be send to the mobile base.
