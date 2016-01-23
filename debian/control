@@ -1,0 +1,12 @@
+Source: ros-jade-nav2d-localizer
+Section: misc
+Priority: extra
+Maintainer: Sebastian Kasperski <sebastian.kasperski@dfki.de>
+Build-Depends: debhelper (>= 9.0.0), ros-jade-catkin, ros-jade-geometry-msgs, ros-jade-nav-msgs, ros-jade-roscpp, ros-jade-sensor-msgs, ros-jade-tf
+Homepage: http://wiki.ros.org/self_localizer
+Standards-Version: 3.9.2
+
+Package: ros-jade-nav2d-localizer
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jade-geometry-msgs, ros-jade-nav-msgs, ros-jade-roscpp, ros-jade-sensor-msgs, ros-jade-tf
+Description: Wrapper around Particle Filter implementation. The SelfLocalizer can be used as library or as a ros-node.
