@@ -1,0 +1,12 @@
+Source: ros-jade-nav2d
+Section: misc
+Priority: extra
+Maintainer: Sebastian Kasperski <sebastian.kasperski@dfki.de>
+Build-Depends: debhelper (>= 9.0.0), ros-jade-catkin
+Homepage: http://wiki.ros.org/navigation_2d
+Standards-Version: 3.9.2
+
+Package: ros-jade-nav2d
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jade-nav2d-exploration, ros-jade-nav2d-karto, ros-jade-nav2d-localizer, ros-jade-nav2d-msgs, ros-jade-nav2d-navigator, ros-jade-nav2d-operator, ros-jade-nav2d-remote, ros-jade-nav2d-tutorials
+Description: Meta-Package containing modules for 2D-Navigation
