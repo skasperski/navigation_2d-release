@@ -1,0 +1,13 @@
+Source: ros-kinetic-nav2d-karto
+Section: misc
+Priority: extra
+Maintainer: Sebastian Kasperski <sebastian.kasperski@dfki.de>
+Build-Depends: debhelper (>= 9.0.0), libeigen3-dev, libsuitesparse-dev, libtbb-dev, ros-kinetic-catkin, ros-kinetic-geometry-msgs, ros-kinetic-nav-msgs, ros-kinetic-nav2d-localizer, ros-kinetic-nav2d-msgs, ros-kinetic-roscpp, ros-kinetic-tf, ros-kinetic-visualization-msgs
+Homepage: http://wiki.ros.org/robot_operator
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-nav2d-karto
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libeigen3-dev, libsuitesparse-dev, libtbb-dev, ros-kinetic-geometry-msgs, ros-kinetic-nav-msgs, ros-kinetic-nav2d-localizer, ros-kinetic-nav2d-msgs, ros-kinetic-roscpp, ros-kinetic-tf, ros-kinetic-visualization-msgs
+Description: Graph-based Simultaneous Localization and Mapping module.
+ Includes OpenKarto GraphSLAM library by &quot;SRI International&quot;.
