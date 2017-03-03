@@ -1,0 +1,12 @@
+Source: ros-kinetic-nav2d-exploration
+Section: misc
+Priority: extra
+Maintainer: Sebastian Kasperski <sebastian.kasperski@dfki.de>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-geometry-msgs, ros-kinetic-nav-msgs, ros-kinetic-nav2d-navigator, ros-kinetic-pluginlib, ros-kinetic-roscpp, ros-kinetic-tf, ros-kinetic-visualization-msgs
+Homepage: http://wiki.ros.org/robot_operator
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-nav2d-exploration
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-geometry-msgs, ros-kinetic-nav-msgs, ros-kinetic-nav2d-navigator, ros-kinetic-pluginlib, ros-kinetic-roscpp, ros-kinetic-tf, ros-kinetic-visualization-msgs
+Description: This package holds a collection of plugins for the RobotNavigator, that provide different cooperative exploration strategies for a team of mobile robots.
