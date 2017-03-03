@@ -1,0 +1,13 @@
+Source: ros-kinetic-nav2d-operator
+Section: misc
+Priority: extra
+Maintainer: Sebastian Kasperski <sebastian.kasperski@dfki.de>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-costmap-2d, ros-kinetic-message-generation, ros-kinetic-roscpp, ros-kinetic-sensor-msgs, ros-kinetic-tf
+Homepage: http://wiki.ros.org/nav2d_operator
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-nav2d-operator
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-costmap-2d, ros-kinetic-message-runtime, ros-kinetic-roscpp, ros-kinetic-sensor-msgs, ros-kinetic-tf
+Description: The operator is a lightweight, purely reactive obstacle-avoidance module for mobile robots moving in a planar environment.
+ The operator node works by evaluating a set of predefined motion primitives based on a local costmap and a desired direction. The best evaluated motion command will be send to the mobile base.
