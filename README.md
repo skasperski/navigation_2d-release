@@ -1,3 +1,35 @@
+## navigation_2d (kinetic) - 0.3.1-0
+
+The packages in the `navigation_2d` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release navigation_2d --track kinetic --rosdistro kinetic` on `Fri, 03 Mar 2017 09:23:28 -0000`
+
+These packages were released:
+- `nav2d`
+- `nav2d_exploration`
+- `nav2d_karto`
+- `nav2d_localizer`
+- `nav2d_msgs`
+- `nav2d_navigator`
+- `nav2d_operator`
+- `nav2d_remote`
+- `nav2d_tutorials`
+
+Version of package(s) in repository `navigation_2d`:
+
+- upstream repository: https://github.com/skasperski/navigation_2d.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.3.1-0`
+
+Versions of tools used:
+
+- bloom version: `0.5.23`
+- catkin_pkg version: `0.3.1`
+- rosdep version: `0.11.5`
+- rosdistro version: `0.5.0`
+- vcstools version: `0.1.39`
+
+
 ## navigation_2d (jade) - 0.3.1-0
 
 The packages in the `navigation_2d` repository were released into the `jade` distro by running `/usr/bin/bloom-release navigation_2d --track jade --rosdistro jade` on `Fri, 17 Feb 2017 13:24:52 -0000`
