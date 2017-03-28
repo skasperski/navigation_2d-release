@@ -1,0 +1,12 @@
+Source: ros-jade-nav2d-exploration
+Section: misc
+Priority: extra
+Maintainer: Sebastian Kasperski <sebastian.kasperski@dfki.de>
+Build-Depends: debhelper (>= 9.0.0), ros-jade-catkin, ros-jade-geometry-msgs, ros-jade-nav-msgs, ros-jade-nav2d-navigator, ros-jade-pluginlib, ros-jade-roscpp, ros-jade-tf, ros-jade-visualization-msgs
+Homepage: http://wiki.ros.org/robot_operator
+Standards-Version: 3.9.2
+
+Package: ros-jade-nav2d-exploration
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jade-geometry-msgs, ros-jade-nav-msgs, ros-jade-nav2d-navigator, ros-jade-pluginlib, ros-jade-roscpp, ros-jade-tf, ros-jade-visualization-msgs
+Description: This package holds a collection of plugins for the RobotNavigator, that provide different cooperative exploration strategies for a team of mobile robots.
