@@ -120,10 +120,10 @@ private:
 	bool mPublishRoute;
 	double mMaxFreeSpace;
 	double mSafetyDecay;
-	int mDistanceWeight;
 	int mSafetyWeight;
 	int mConformanceWeight;
 	int mContinueWeight;
+	int mEscapeWeight;
 
 	std::string mOdometryFrame;
 	std::string mRobotFrame;
