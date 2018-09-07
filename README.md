@@ -1,3 +1,35 @@
+## navigation_2d (lunar) - 0.4.1-0
+
+The packages in the `navigation_2d` repository were released into the `lunar` distro by running `/usr/bin/bloom-release navigation_2d --rosdistro lunar` on `Fri, 07 Sep 2018 09:57:26 -0000`
+
+These packages were released:
+- `nav2d`
+- `nav2d_exploration`
+- `nav2d_karto`
+- `nav2d_localizer`
+- `nav2d_msgs`
+- `nav2d_navigator`
+- `nav2d_operator`
+- `nav2d_remote`
+- `nav2d_tutorials`
+
+Version of package(s) in repository `navigation_2d`:
+
+- upstream repository: https://github.com/skasperski/navigation_2d.git
+- release repository: https://github.com/skasperski/navigation_2d-release.git
+- rosdistro version: `0.4.0-0`
+- old version: `0.4.0-0`
+- new version: `0.4.1-0`
+
+Versions of tools used:
+
+- bloom version: `0.6.6`
+- catkin_pkg version: `0.4.8`
+- rosdep version: `0.12.2`
+- rosdistro version: `0.6.9`
+- vcstools version: `0.1.40`
+
+
 ## navigation_2d (lunar) - 0.4.0-0
 
 The packages in the `navigation_2d` repository were released into the `lunar` distro by running `/usr/bin/bloom-release navigation_2d --rosdistro lunar` on `Wed, 05 Sep 2018 13:07:33 -0000`
