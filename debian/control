@@ -1,0 +1,12 @@
+Source: ros-melodic-nav2d-exploration
+Section: misc
+Priority: extra
+Maintainer: Sebastian Kasperski <sebastian.kasperski@dfki.de>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin, ros-melodic-geometry-msgs, ros-melodic-nav-msgs, ros-melodic-nav2d-navigator, ros-melodic-pluginlib, ros-melodic-roscpp, ros-melodic-tf, ros-melodic-visualization-msgs
+Homepage: http://wiki.ros.org/robot_operator
+Standards-Version: 3.9.2
+
+Package: ros-melodic-nav2d-exploration
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-geometry-msgs, ros-melodic-nav-msgs, ros-melodic-nav2d-navigator, ros-melodic-pluginlib, ros-melodic-roscpp, ros-melodic-tf, ros-melodic-visualization-msgs
+Description: This package holds a collection of plugins for the RobotNavigator, that provide different cooperative exploration strategies for a team of mobile robots.
