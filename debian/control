@@ -1,0 +1,13 @@
+Source: ros-melodic-nav2d-navigator
+Section: misc
+Priority: extra
+Maintainer: Sebastian Kasperski <sebastian.kasperski@dfki.de>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-actionlib, ros-melodic-actionlib-msgs, ros-melodic-catkin, ros-melodic-geometry-msgs, ros-melodic-message-generation, ros-melodic-nav2d-msgs, ros-melodic-nav2d-operator, ros-melodic-pluginlib, ros-melodic-roscpp, ros-melodic-std-srvs, ros-melodic-tf
+Homepage: http://wiki.ros.org/robot_operator
+Standards-Version: 3.9.2
+
+Package: ros-melodic-nav2d-navigator
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-actionlib, ros-melodic-actionlib-msgs, ros-melodic-geometry-msgs, ros-melodic-message-runtime, ros-melodic-nav2d-msgs, ros-melodic-nav2d-operator, ros-melodic-pluginlib, ros-melodic-roscpp, ros-melodic-std-srvs, ros-melodic-tf
+Description: This package provides a node for higher level navigation of a mobile robot in a planar environment.
+ It needs a map and the robot's position within this map to create a plan for navigation. When used together with a SLAM module it can also be used to perform autonomous exploration of the robot's workspace.
