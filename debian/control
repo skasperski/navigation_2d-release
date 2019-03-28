@@ -1,0 +1,12 @@
+Source: ros-melodic-nav2d-msgs
+Section: misc
+Priority: extra
+Maintainer: Sebastian Kasperski <sebastian.kasperski@dfki.de>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin, ros-melodic-geometry-msgs, ros-melodic-message-generation, ros-melodic-sensor-msgs, ros-melodic-std-msgs
+Homepage: http://wiki.ros.org/nav2d_msgs
+Standards-Version: 3.9.2
+
+Package: ros-melodic-nav2d-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-geometry-msgs, ros-melodic-message-runtime, ros-melodic-sensor-msgs, ros-melodic-std-msgs
+Description: Messages used for 2D-Navigation.
