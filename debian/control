@@ -1,0 +1,13 @@
+Source: ros-melodic-nav2d-localizer
+Section: misc
+Priority: extra
+Maintainer: Sebastian Kasperski <sebastian.kasperski@dfki.de>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin, ros-melodic-geometry-msgs, ros-melodic-nav-msgs, ros-melodic-roscpp, ros-melodic-sensor-msgs, ros-melodic-tf
+Homepage: http://wiki.ros.org/self_localizer
+Standards-Version: 3.9.2
+
+Package: ros-melodic-nav2d-localizer
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-geometry-msgs, ros-melodic-nav-msgs, ros-melodic-roscpp, ros-melodic-sensor-msgs, ros-melodic-tf
+Description: Wrapper around Particle Filter implementation.
+ The SelfLocalizer can be used as library or as a ros-node.
