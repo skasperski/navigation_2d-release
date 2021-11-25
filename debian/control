@@ -1,0 +1,12 @@
+Source: ros-noetic-nav2d
+Section: misc
+Priority: optional
+Maintainer: Sebastian Kasperski <sebastian.kasperski@dfki.de>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin
+Homepage: http://wiki.ros.org/navigation_2d
+Standards-Version: 3.9.2
+
+Package: ros-noetic-nav2d
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-nav2d-exploration, ros-noetic-nav2d-karto, ros-noetic-nav2d-localizer, ros-noetic-nav2d-msgs, ros-noetic-nav2d-navigator, ros-noetic-nav2d-operator, ros-noetic-nav2d-remote, ros-noetic-nav2d-tutorials
+Description: Meta-Package containing modules for 2D-Navigation
