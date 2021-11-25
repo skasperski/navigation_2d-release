@@ -1,0 +1,12 @@
+Source: ros-noetic-nav2d-exploration
+Section: misc
+Priority: optional
+Maintainer: Sebastian Kasperski <sebastian.kasperski@dfki.de>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin, ros-noetic-geometry-msgs, ros-noetic-nav-msgs, ros-noetic-nav2d-navigator, ros-noetic-pluginlib, ros-noetic-roscpp, ros-noetic-tf, ros-noetic-visualization-msgs
+Homepage: http://wiki.ros.org/robot_operator
+Standards-Version: 3.9.2
+
+Package: ros-noetic-nav2d-exploration
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-geometry-msgs, ros-noetic-nav-msgs, ros-noetic-nav2d-navigator, ros-noetic-pluginlib, ros-noetic-roscpp, ros-noetic-tf, ros-noetic-visualization-msgs
+Description: This package holds a collection of plugins for the RobotNavigator, that provide different cooperative exploration strategies for a team of mobile robots.
