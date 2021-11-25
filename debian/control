@@ -1,0 +1,12 @@
+Source: ros-noetic-nav2d-tutorials
+Section: misc
+Priority: optional
+Maintainer: Sebastian Kasperski <sebastian.kasperski@dfki.de>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin
+Homepage: http://wiki.ros.org/nav2d_tutorials
+Standards-Version: 3.9.2
+
+Package: ros-noetic-nav2d-tutorials
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-nav2d-exploration, ros-noetic-nav2d-karto, ros-noetic-nav2d-localizer, ros-noetic-nav2d-msgs, ros-noetic-nav2d-navigator, ros-noetic-nav2d-operator, ros-noetic-nav2d-remote
+Description: Contains a set of tutorials that run 2D-Navigation within Stage-Simulator.
