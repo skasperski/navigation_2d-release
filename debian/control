@@ -1,0 +1,13 @@
+Source: ros-noetic-nav2d-navigator
+Section: misc
+Priority: optional
+Maintainer: Sebastian Kasperski <sebastian.kasperski@dfki.de>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-actionlib, ros-noetic-actionlib-msgs, ros-noetic-catkin, ros-noetic-geometry-msgs, ros-noetic-message-generation, ros-noetic-nav2d-msgs, ros-noetic-nav2d-operator, ros-noetic-pluginlib, ros-noetic-roscpp, ros-noetic-std-srvs, ros-noetic-tf
+Homepage: http://wiki.ros.org/robot_operator
+Standards-Version: 3.9.2
+
+Package: ros-noetic-nav2d-navigator
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-actionlib, ros-noetic-actionlib-msgs, ros-noetic-geometry-msgs, ros-noetic-message-runtime, ros-noetic-nav2d-msgs, ros-noetic-nav2d-operator, ros-noetic-pluginlib, ros-noetic-roscpp, ros-noetic-std-srvs, ros-noetic-tf
+Description: This package provides a node for higher level navigation of a mobile robot in a planar environment.
+ It needs a map and the robot's position within this map to create a plan for navigation. When used together with a SLAM module it can also be used to perform autonomous exploration of the robot's workspace.
