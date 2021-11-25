@@ -1,0 +1,13 @@
+Source: ros-noetic-nav2d-localizer
+Section: misc
+Priority: optional
+Maintainer: Sebastian Kasperski <sebastian.kasperski@dfki.de>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin, ros-noetic-geometry-msgs, ros-noetic-nav-msgs, ros-noetic-roscpp, ros-noetic-sensor-msgs, ros-noetic-tf
+Homepage: http://wiki.ros.org/self_localizer
+Standards-Version: 3.9.2
+
+Package: ros-noetic-nav2d-localizer
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-geometry-msgs, ros-noetic-nav-msgs, ros-noetic-roscpp, ros-noetic-sensor-msgs, ros-noetic-tf
+Description: Wrapper around Particle Filter implementation.
+ The SelfLocalizer can be used as library or as a ros-node.
