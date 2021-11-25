@@ -1,0 +1,12 @@
+Source: ros-noetic-nav2d-msgs
+Section: misc
+Priority: optional
+Maintainer: Sebastian Kasperski <sebastian.kasperski@dfki.de>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin, ros-noetic-geometry-msgs, ros-noetic-message-generation, ros-noetic-sensor-msgs, ros-noetic-std-msgs
+Homepage: http://wiki.ros.org/nav2d_msgs
+Standards-Version: 3.9.2
+
+Package: ros-noetic-nav2d-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-geometry-msgs, ros-noetic-message-runtime, ros-noetic-sensor-msgs, ros-noetic-std-msgs
+Description: Messages used for 2D-Navigation.
