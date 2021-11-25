@@ -1,3 +1,35 @@
+## navigation_2d (noetic) - 0.4.3-1
+
+The packages in the `navigation_2d` repository were released into the `noetic` distro by running `/usr/bin/bloom-release navigation_2d --rosdistro noetic` on `Thu, 25 Nov 2021 15:22:33 -0000`
+
+These packages were released:
+- `nav2d`
+- `nav2d_exploration`
+- `nav2d_karto`
+- `nav2d_localizer`
+- `nav2d_msgs`
+- `nav2d_navigator`
+- `nav2d_operator`
+- `nav2d_remote`
+- `nav2d_tutorials`
+
+Version of package(s) in repository `navigation_2d`:
+
+- upstream repository: https://github.com/skasperski/navigation_2d.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.4.3-1`
+
+Versions of tools used:
+
+- bloom version: `0.10.7`
+- catkin_pkg version: `0.4.24`
+- rosdep version: `0.21.0`
+- rosdistro version: `0.8.3`
+- vcstools version: `0.1.42`
+
+
 ## navigation_2d (melodic) - 0.4.2-0
 
 The packages in the `navigation_2d` repository were released into the `melodic` distro by running `/usr/bin/bloom-release navigation_2d --rosdistro melodic` on `Thu, 28 Mar 2019 14:50:47 -0000`
